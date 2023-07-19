@@ -1,0 +1,18 @@
+2023-06-24 00:09:14.801 [info] Extension host with pid 70310 started
+2023-06-24 00:09:17.419 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-24 00:09:21.192 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-24 00:09:22.587 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-24 00:09:25.969 [info] Eager extensions activated
+2023-06-24 00:09:28.668 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 00:09:28.725 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 00:10:15.662 [info] Extension host terminating: renderer closed the MessagePort
+2023-06-24 00:10:15.782 [info] Extension host with pid 70310 exiting with code 0
+2023-06-24 00:10:52.644 [info] Extension host with pid 72292 started
+2023-06-24 00:10:52.644 [info] Skipping acquiring lock for /home/nomka/.config/Code - OSS/User/workspaceStorage/80bf185b374a40002dcac3a74d1a7f86.
+2023-06-24 00:10:58.335 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-24 00:10:58.848 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-24 00:11:01.526 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-24 00:11:01.996 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-24 00:11:04.085 [info] Eager extensions activated
+2023-06-24 00:11:05.523 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 00:11:05.592 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

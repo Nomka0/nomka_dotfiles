@@ -1,0 +1,23 @@
+{
+  message: '[Error - 12:06:35 AM] Jun 24, 2023, 12:06:35 AM _/RegistroPacientes/src [in java_projects_fd4bc9c9] does not exist\n' +
+    '_/RegistroPacientes/src [in java_projects_fd4bc9c9] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/RegistroPacientes/src [in java_projects_fd4bc9c9] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:349)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:986)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:148)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:112)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:320)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:283)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:734)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2023-06-24 00:06:35.629'
+}

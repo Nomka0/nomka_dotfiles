@@ -1,0 +1,97 @@
+2023-06-22 21:50:27.587 [info] Extension host with pid 4108 started
+2023-06-22 21:50:27.587 [info] Skipping acquiring lock for /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10.
+2023-06-22 21:50:29.832 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-22 21:50:29.937 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2023-06-22 21:50:30.749 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2023-06-22 21:50:30.972 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-22 21:50:32.219 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-06-22 21:50:34.210 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-22 21:50:34.524 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-22 21:50:35.389 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-06-22 21:50:36.208 [info] Eager extensions activated
+2023-06-22 21:50:36.511 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 21:50:36.808 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 21:52:43.596 [error] [redhat.java] provider FAILED
+2023-06-22 21:52:43.624 [error] Error: The request (id: 19, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 21:52:44.846 [error] [redhat.java] provider FAILED
+2023-06-22 21:52:44.846 [error] Error: The request (id: 26, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 22:01:01.218 [info] Extension host terminating: renderer closed the MessagePort
+2023-06-22 22:01:01.315 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at H.<computed>.V.charCodeAt.H.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1274494)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at v.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at v.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:34439)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:30578)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-06-22 22:01:01.316 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at H.<computed>.V.charCodeAt.H.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1274494)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at v.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at v.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:34439)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:30578)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-06-22 22:01:01.332 [info] Extension host with pid 4108 exiting with code 0

@@ -1,0 +1,19 @@
+2023-06-24 18:28:03.556 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-06-24 18:28:04.066 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-06-24 18:28:21.476 [info] [perf] Render performance baseline is 956ms
+2023-06-24 22:23:01.756 [error] Unable to read file '/home/nomka/rust_projects/rust_practice/comp_types/array/src/main.rs' (Error: File not modified since): Error: Unable to read file '/home/nomka/rust_projects/rust_practice/comp_types/array/src/main.rs' (Error: File not modified since)
+    at e.FileService.w (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:17669)
+    at e.FileService.v (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:17501)
+    at async e.NativeTextFileService.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:38305)
+    at async e.NativeTextFileService.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:38000)
+    at async Hs.Ab (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2298:54368)
+    at async Hs.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2298:52773)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:34023
+2023-06-24 23:35:55.057 [error] Unable to read file '/home/nomka/rust_projects/rust_practice/comp_types/tuples/src/main.rs' (Error: File not modified since): Error: Unable to read file '/home/nomka/rust_projects/rust_practice/comp_types/tuples/src/main.rs' (Error: File not modified since)
+    at e.FileService.w (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:17669)
+    at e.FileService.v (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:17501)
+    at async e.NativeTextFileService.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:38305)
+    at async e.NativeTextFileService.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:38000)
+    at async Hs.Ab (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2298:54368)
+    at async Hs.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2298:52773)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:34023

@@ -1,0 +1,82 @@
+shel
+filter
+filter 90s
+repeat_current=true
+repeat_current
+repeat_current (false)
+repeat_current (true)
+repeat_current(true)
+filter pop
+fset pop=genre="pop"
+fset pop genre="pop"
+filter classical
+filter bowie
+fset bowie=artist="David Bowie"
+filter 2020s
+filter 80s
+fset nuevo=date>=2010&date<2030
+fset 60s=date>=1960&date<1970
+fset 2020s=date>=2020&date<2030
+fset 2010s=date>=2010&date<2020
+fset 2000s=date>=2000&date<2010
+fset 70s=date>=1970&date<1980
+fset 80s=date>=1980&date<1990
+fset
+filter 
+fset 90s=date>=1990&date<2000
+filter true
+filter 1980
+filter ride on
+filter ride
+q
+/crimewave
+vol +100%
+vol -50%
+vol +40%
+vol +10%
+Q
+quit
+set color_win_bg=default
+set color_win_attr=default
+set color_win_attr default
+colorscheme amazon
+colorscheme spotify
+colorscheme solarized-light
+colorscheme green-mono-88
+colorscheme gruvbox-alt
+colorscheme night
+colorscheme zenburn
+colorscheme xterm-white
+colorscheme solarized-dark
+colorscheme rc
+colorscheme jellybeans
+colorscheme gruvbox-warm
+colorscheme gruvbox
+colorscheme green
+colorscheme dracula
+colorscheme default
+colorscheme cyan
+colorscheme gray-88
+colorscheme gray-8
+pl -help
+colorscheme white
+colorscheme red
+coloscheme red
+set color_statusline_fg=magenta
+set color_statusline_bg=blue
+set color_statusline_fg=white
+set color_statusline_fg=purple
+set color_statusline_bg=red
+set color_statusline_bg=yellow
+set color_statusline_bg=black
+asd
+set color_error=default
+set color_error=yellow
+set color_cmdline_fg=white
+set color_cmdline_bg=magenta
+set color_cmdline_bg=white
+set color_cmdline_bg=purple
+set color_cmdline_fg=black
+set color_cmdline_bg=wblack
+set color_cmdline_bg=black
+set color_cmdline_bg black

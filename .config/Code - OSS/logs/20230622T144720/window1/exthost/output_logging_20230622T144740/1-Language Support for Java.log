@@ -1,0 +1,462 @@
+WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector
+[Error - 2:48:51 PM] Jun 22, 2023, 2:48:51 PM Error occured while building workspace. Details: 
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 397
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 398
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 407
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 408
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 409
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 411
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 415
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 421
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 424
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 425
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 426
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 433
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 434
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 435
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 436
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 438
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 439
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 455
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 472
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 500
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 518
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 553
+ message: Vista cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 573
+ message: The declared package "controlador" does not match the expected package "Biblioteca.Biblioteca.src.controlador"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 5
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 7
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 12
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 13
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 14
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 15
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 16
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 36
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 37
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 46
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 47
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 48
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 51
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 52
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 56
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 57
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 58
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 68
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 68
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 69
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 70
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 71
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 71
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 76
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 76
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 77
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 77
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 83
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 83
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 113
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 172
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 172
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 173
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 174
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 175
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 176
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 177
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 178
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 179
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 180
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 184
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 189
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 190
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 190
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 207
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 212
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 224
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 267
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 276
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 299
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 300
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 302
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 303
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 303
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 304
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 315
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 316
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 317
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 322
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 322
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 322
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 359
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 367
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 370
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 373
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 379
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 385
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 386
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 387
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 388
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 390
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 391
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 392
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 393
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 394
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 395
+ message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 396
+ message: The declared package "controlador" does not match the expected package "Biblioteca.Biblioteca.src.controlador"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 5
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 11
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 12
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 13
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 14
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 36
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 44
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 45
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 46
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 52
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 53
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 61
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 61
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 62
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 63
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 64
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 64
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 69
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 69
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 74
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 74
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 94
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 103
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 107
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 112
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 113
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 113
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 127
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 132
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 149
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 156
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 169
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 173
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 174
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 174
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 175
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 190
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 202
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 203
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 204
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 236
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 255
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 258
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 261
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 267
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 274
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 275
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 276
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 277
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 278
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 286
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 287
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 288
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 290
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 294
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 300
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 303
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 304
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 304
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 311
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 332
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 333
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 337
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 339
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 351
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 367
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 372
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 376
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 377
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 378
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 379
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 380
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 385
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 385
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 386
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 387
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 388
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 389
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 398
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 399
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 410
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 411
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 412
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 413
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 415
+ message: Vista cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 429
+ message: Vista cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 429
+ message: AdministrarRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorRecursos.java; line: 431
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 280
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 281
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 282
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 283
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 284
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 292
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 293
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 294
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 296
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 300
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 306
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 309
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 310
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 310
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 317
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 338
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 339
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 343
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 345
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 357
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 373
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 378
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 382
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 383
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 384
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 385
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 386
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 391
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 391
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 392
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 393
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 394
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 395
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 404
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 405
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 416
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 417
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 418
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 419
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 421
+ message: Vista cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 435
+ message: Vista cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 435
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 437
+ message: The declared package "controlador" does not match the expected package "Biblioteca.Biblioteca.src.controlador"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 5
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 11
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 12
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 13
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 14
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 36
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 44
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 45
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 46
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 49
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 50
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 54
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 55
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 63
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 63
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 64
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 65
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 66
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 66
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 71
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 71
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 76
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 76
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 96
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 109
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 114
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 115
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 115
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 129
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 134
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 151
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 158
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 171
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 175
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 176
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 176
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 177
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 192
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 204
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 205
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 206
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 211
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 211
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 211
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 242
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 261
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 264
+ message: AdministrarUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 267
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java; line: 273
+ message: The declared package "dao" does not match the expected package "Biblioteca.Biblioteca.src.dao"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 8
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 9
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 10
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 18
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 20
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 22
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAO.java; line: 24
+ message: The declared package "dao" does not match the expected package "Biblioteca.Biblioteca.src.dao"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 8
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 9
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 10
+ message: The type PrestamoDAOImpl must implement the inherited abstract method PrestamoDAO.actualizarPrestamo(int, Prestamo); code: 67109264; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 15
+ message: The type PrestamoDAOImpl must implement the inherited abstract method PrestamoDAO.crearPrestamo(Prestamo); code: 67109264; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 15
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 16
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 19
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 23
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 24
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 28
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 30
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 35
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 37
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 42
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 43
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/PrestamoDAOImpl.java; line: 48
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAO.java; line: 16
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAO.java; line: 18
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAO.java; line: 20
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAO.java; line: 22
+ message: The declared package "dao" does not match the expected package "Biblioteca.Biblioteca.src.dao"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAO.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAO.java; line: 8
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 20
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 21
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 25
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 26
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 30
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 31
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 35
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 36
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 41
+ message: The declared package "dao" does not match the expected package "Biblioteca.Biblioteca.src.dao"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 9
+ message: The type RecursoDAOImpl must implement the inherited abstract method RecursoDAO.crearRecurso(Recurso); code: 67109264; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 11
+ message: The type RecursoDAOImpl must implement the inherited abstract method RecursoDAO.actualizarRecurso(int, Recurso); code: 67109264; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 11
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 13
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/RecursoDAOImpl.java; line: 16
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAO.java; line: 8
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAO.java; line: 12
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAO.java; line: 14
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAO.java; line: 16
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAO.java; line: 18
+ message: The declared package "dao" does not match the expected package "Biblioteca.Biblioteca.src.dao"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAO.java; line: 5
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 16
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 20
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 21
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 25
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 26
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 30
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 31
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 35
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 36
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 41
+ message: The declared package "dao" does not match the expected package "Biblioteca.Biblioteca.src.dao"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 9
+ message: The type UsuarioDAOImpl must implement the inherited abstract method UsuarioDAO.crearUsuario(Usuario); code: 67109264; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 11
+ message: The type UsuarioDAOImpl must implement the inherited abstract method UsuarioDAO.actualizarUsuario(int, Usuario); code: 67109264; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 11
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/dao/UsuarioDAOImpl.java; line: 13
+ message: The declared package "main" does not match the expected package "Biblioteca.Biblioteca.src.main"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/main/Main.java; line: 5
+ message: The declared package "modelo" does not match the expected package "Biblioteca.Biblioteca.src.modelo"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/modelo/Prestamo.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/modelo/Prestamo.java; line: 7
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/modelo/Prestamo.java; line: 8
+ message: The declared package "modelo" does not match the expected package "Biblioteca.Biblioteca.src.modelo"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/modelo/Recurso.java; line: 5
+ message: The declared package "modelo" does not match the expected package "Biblioteca.Biblioteca.src.modelo"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/modelo/Usuario.java; line: 5
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarPrestamos.java; line: 614
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarPrestamos.java; line: 632
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarPrestamos.java; line: 658
+ message: The declared package "vista" does not match the expected package "Biblioteca.Biblioteca.src.vista"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarPrestamos.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarPrestamos.java; line: 16
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarPrestamos.java; line: 21
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarPrestamos.java; line: 22
+ message: The declared package "vista" does not match the expected package "Biblioteca.Biblioteca.src.vista"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarRecursos.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarRecursos.java; line: 16
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarRecursos.java; line: 21
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarRecursos.java; line: 337
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarRecursos.java; line: 361
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarRecursos.java; line: 413
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarUsuarios.java; line: 322
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarUsuarios.java; line: 347
+ message: The declared package "vista" does not match the expected package "Biblioteca.Biblioteca.src.vista"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarUsuarios.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarUsuarios.java; line: 14
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarUsuarios.java; line: 27
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/AdministrarUsuarios.java; line: 292
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 109
+ message: ControladorPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 110
+ message: ControladorPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 110
+ message: RecursoDAO cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 116
+ message: RecursoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 116
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 119
+ message: Recurso cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 119
+ message: ControladorRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 120
+ message: ControladorRecursos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 120
+ message: UsuarioDAO cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 126
+ message: UsuarioDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 126
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 130
+ message: Usuario cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 130
+ message: ControladorUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 131
+ message: ControladorUsuarios cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 131
+ message: The declared package "vista" does not match the expected package "Biblioteca.Biblioteca.src.vista"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 5
+ message: The import controlador cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 7
+ message: The import controlador cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 8
+ message: The import controlador cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 9
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 10
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 11
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 12
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 13
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 14
+ message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 15
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 16
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 17
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 18
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 19
+ message: PrestamoDAO cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 106
+ message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 106
+ message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java; line: 109
+ message: The declared package "modelo" does not match the expected package "fugadeletras.FugaDeLetras1.src.modelo"; code: 536871240; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/modelo/Jugador.java; line: 5
+ message: The declared package "modelo" does not match the expected package "fugadeletras.FugaDeLetras1.src.modelo"; code: 536871240; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/modelo/Tematica.java; line: 5
+ message: The declared package "vista" does not match the expected package "fugadeletras.FugaDeLetras1.src.vista"; code: 536871240; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/Principal.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaEstadisticas.java; line: 8
+ message: The declared package "vista" does not match the expected package "fugadeletras.FugaDeLetras1.src.vista"; code: 536871240; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaEstadisticas.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaEstadisticas.java; line: 7
+ message: The declared package "vista" does not match the expected package "fugadeletras.FugaDeLetras1.src.vista"; code: 536871240; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 5
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 9
+ message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 10
+ message: modelo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 59
+ message: Tematica cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 59
+ message: Jugador cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 64
+ message: Tematica cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 79
+ message: Tematica cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 131
+ message: Tematica cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaJuego.java; line: 137
+ message: The declared package "vista" does not match the expected package "fugadeletras.FugaDeLetras1.src.vista"; code: 536871240; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaNombre.java; line: 5
+ message: The import modelo.Jugador cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaNombre.java; line: 7
+ message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaNombre.java; line: 8
+ message: Jugador cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaNombre.java; line: 98
+ message: Jugador cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaNombre.java; line: 98
+ message: The declared package "vista" does not match the expected package "fugadeletras.FugaDeLetras1.src.vista"; code: 536871240; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaPrincipal.java; line: 5
+ message: The import modelo.Jugador cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaPrincipal.java; line: 7
+[Error - 3:08:00 PM] Request textDocument/codeAction failed.
+  Message: Internal error.
+  Code: -32603 
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Invalid identifier : >Override<
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.IllegalArgumentException: Invalid identifier : >Override<
+	at org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)
+	at org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2853)
+	at org.eclipse.jdt.core.dom.AST.newName(AST.java:2491)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createOverrideAnnotation(StubUtility2Core.java:1012)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.addOverrideAnnotation(StubUtility2Core.java:997)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createImplementationStubCore(StubUtility2Core.java:450)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createImplementationStubCore(StubUtility2Core.java:319)
+	at org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createImplementationStubCore(StubUtility2Core.java:313)
+	at org.eclipse.jdt.internal.corext.fix.AddUnimplementedMethodsOperation.rewriteAST(AddUnimplementedMethodsOperation.java:111)
+	at org.eclipse.jdt.internal.corext.fix.CompilationUnitRewriteOperationsFixCore.createChange(CompilationUnitRewriteOperationsFixCore.java:98)
+	at org.eclipse.jdt.ls.core.internal.corrections.proposals.LocalCorrectionsSubProcessor.addUnimplementedMethodsProposals(LocalCorrectionsSubProcessor.java:415)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:299)
+	at org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:87)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:166)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$13(JDTLanguageServer.java:725)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	... 6 more
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

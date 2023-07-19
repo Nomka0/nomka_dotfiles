@@ -1,0 +1,216 @@
+!SESSION 2023-06-07 23:31:45.140 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=20.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nomka/.config/Code - OSS/User/workspaceStorage/15377a40b5bbf1e5358b097ca06bd2fb/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:03.086
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:06.241
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:07.232
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:07.279
+!MESSAGE Initializing Java Language Server 1.24.0.202306011331
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:12.851
+!MESSAGE Installed reference:file:/home/nomka/.vscode-oss/extensions/vscjava.vscode-java-debug-0.51.0-universal/server/com.microsoft.java.debug.plugin-0.46.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:13.808
+!MESSAGE Started reference:file:/home/nomka/.vscode-oss/extensions/vscjava.vscode-java-debug-0.51.0-universal/server/com.microsoft.java.debug.plugin-0.46.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:13.858
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:13.860
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:13.878
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:13.883
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:14.055
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:14.102
+!MESSAGE ProjectRegistryRefreshJob finished 44ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:14.632
+!MESSAGE Started org.eclipse.buildship.core 528ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:14.706
+!MESSAGE RepositoryRegistryUpdateJob finished 9ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:14.919
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:15.084
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:16.370
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.196
+!MESSAGE Try to create an invisible project for the workspace /home/nomka/java projects/Biblioteca impl
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.197
+!MESSAGE Creating the Java project Biblioteca impl_3e82e795
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.423
+!MESSAGE Finished creating the Java project Biblioteca impl_3e82e795
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.510
+!MESSAGE Successfully created a workspace invisible project Biblioteca impl_3e82e795
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.673
+!MESSAGE Workspace initialized in 19976ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.856
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.927
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:34.948
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY java-debug 1 0 2023-06-07 23:32:35.028
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:35.722
+!MESSAGE >> Updating classpath for project Biblioteca impl_3e82e795
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:36.731
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:48.032
+!MESSAGE begin problem for /Vista.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:48.033
+!MESSAGE 2 problems reported for /Vista.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:48.100
+!MESSAGE Validated 1. Took 10767 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:58.138
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:32:58.422
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:33:03.664
+!MESSAGE begin problem for /Vista.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:33:03.665
+!MESSAGE 2 problems reported for /Vista.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:33:03.670
+!MESSAGE Validated 1. Took 3518 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:35:48.496
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:35:48.575
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:35:48.911
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:35:48.932
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2023-06-07 23:43:35.572 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=20.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nomka/.config/Code - OSS/User/workspaceStorage/15377a40b5bbf1e5358b097ca06bd2fb/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:43:56.794
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:43:59.874
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:00.807
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:00.829
+!MESSAGE Initializing Java Language Server 1.24.0.202306011331
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:07.079
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:07.080
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.edit.handlePasteEvent, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.decompile, java.project.createModuleInfo, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:07.081
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:07.082
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:07.216
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:07.974
+!MESSAGE ProjectRegistryRefreshJob finished 757ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:08.362
+!MESSAGE Started org.eclipse.buildship.core 386ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:08.588
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:08.941
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:20.680
+!MESSAGE Workspace initialized in 12091ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:20.865
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:20.911
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:20.953
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:21.608
+!MESSAGE >> Updating classpath for project Biblioteca impl_3e82e795
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:23.066
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:28.639
+!MESSAGE begin problem for /Vista.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:28.662
+!MESSAGE 2 problems reported for /Vista.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:28.712
+!MESSAGE Validated 1. Took 4990 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-07 23:44:29.565
+!MESSAGE >> build jobs finished
+
+!ENTRY java-debug 1 0 2023-06-07 23:44:30.217
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-08 00:13:37.574
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-08 00:13:37.670
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-08 00:13:40.006
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-06-08 00:13:40.305
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

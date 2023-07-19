@@ -1,0 +1,175 @@
+2023-06-22 14:08:07.855 [info] Extension host with pid 6005 started
+2023-06-22 14:08:07.855 [info] Skipping acquiring lock for /home/nomka/.config/Code - OSS/User/workspaceStorage/80bf185b374a40002dcac3a74d1a7f86.
+2023-06-22 14:08:09.135 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-22 14:08:09.914 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-22 14:08:10.669 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-22 14:08:11.065 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-22 14:08:13.819 [info] Eager extensions activated
+2023-06-22 14:08:13.831 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 14:08:14.123 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 14:31:52.849 [info] Extension host terminating: renderer closed the MessagePort
+2023-06-22 14:31:52.872 [info] Extension host with pid 6005 exiting with code 0
+2023-06-22 14:32:04.134 [info] Extension host with pid 44078 started
+2023-06-22 14:32:04.135 [info] Skipping acquiring lock for /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10.
+2023-06-22 14:32:04.512 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-06-22 14:32:04.732 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-22 14:32:04.803 [info] Eager extensions activated
+2023-06-22 14:32:04.836 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 14:32:04.855 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 14:32:09.394 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-06-22 14:32:59.786 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-22 14:35:08.961 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2023-06-22 14:35:10.179 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2023-06-22 14:35:11.037 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-06-22 14:35:11.598 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-06-22 14:35:59.065 [error] [redhat.java] provider FAILED
+2023-06-22 14:35:59.133 [error] Error: The request (id: 4, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:36:26.974 [error] [redhat.java] provider FAILED
+2023-06-22 14:36:26.975 [error] Error: The request (id: 13, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:36:54.462 [error] [redhat.java] provider FAILED
+2023-06-22 14:36:54.503 [error] Error: The request (id: 16, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:37:10.590 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-06-22 14:38:24.324 [error] [redhat.java] provider FAILED
+2023-06-22 14:38:24.349 [error] Error: The request (id: 51, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:44:05.965 [error] Error: The request (id: 483, method: 'workspace/executeCommand') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21) java.execute.workspaceCommand {"value":"redhat.java","c":"redhat.java"}
+2023-06-22 14:44:06.010 [error] [redhat.java] provider FAILED
+2023-06-22 14:44:06.011 [error] Error: The request (id: 485, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:44:06.026 [error] Error: The request (id: 487, method: 'workspace/executeCommand') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21) java.execute.workspaceCommand {"value":"redhat.java","c":"redhat.java"}
+2023-06-22 14:44:06.040 [error] [redhat.java] provider FAILED
+2023-06-22 14:44:06.040 [error] Error: The request (id: 490, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:45:42.899 [error] Error: Internal error.
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:45:52.732 [error] [redhat.java] provider FAILED
+2023-06-22 14:45:52.732 [error] Error: The request (id: 814, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:46:06.749 [error] [redhat.java] provider FAILED
+2023-06-22 14:46:06.749 [error] Error: The request (id: 846, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:46:06.911 [error] Error: Internal error.
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 14:47:06.981 [info] Extension host terminating: renderer closed the MessagePort
+2023-06-22 14:47:07.106 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at H.<computed>.V.charCodeAt.H.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1274494)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at v.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at v.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:34439)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:30578)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-06-22 14:47:07.108 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:104563)
+	at a.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:11657)
+	at H.<computed>.V.charCodeAt.H.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:110:8947)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124729)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at C.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:123398)
+	at e.ExtHostCommands.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:125315)
+	at e.ExtHostCommands.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124205)
+	at e.ExtHostCommands.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:124105)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:24043)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1259661)
+	at v.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at i.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1274494)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1278940
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1278926)
+	at t.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12369)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at t.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1261791)
+	at t.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:12504)
+	at T (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12080)
+	at v.Y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:11173)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9157
+	at Array.map (<anonymous>)
+	at v.R (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9144)
+	at v.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:9415)
+	at d.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:1544)
+	at g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:34439)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:126:30578)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-06-22 14:47:07.225 [info] Extension host with pid 44078 exiting with code 0

@@ -1,0 +1,154 @@
+2023-06-22 14:47:40.173 [info] Extension host with pid 68837 started
+2023-06-22 14:47:40.173 [info] Skipping acquiring lock for /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10.
+2023-06-22 14:47:42.314 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-22 14:47:42.507 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2023-06-22 14:47:43.597 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2023-06-22 14:47:43.884 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-22 14:47:45.342 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-06-22 14:47:45.816 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-22 14:47:46.168 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-22 14:47:47.300 [info] Eager extensions activated
+2023-06-22 14:47:48.339 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 14:47:48.456 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-22 14:47:48.810 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-06-22 14:53:25.009 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-06-22 15:03:20.594 [error] [redhat.java] provider FAILED
+2023-06-22 15:03:20.639 [error] Error: The request (id: 72, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:03:53.317 [error] [redhat.java] provider FAILED
+2023-06-22 15:03:53.318 [error] Error: The request (id: 112, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:03:56.706 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-06-22 15:04:01.118 [error] [redhat.java] provider FAILED
+2023-06-22 15:04:01.119 [error] Error: The request (id: 144, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:04:02.041 [error] [redhat.java] provider FAILED
+2023-06-22 15:04:02.042 [error] Error: The request (id: 145, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:04:17.052 [error] [redhat.java] provider FAILED
+2023-06-22 15:04:17.052 [error] Error: The request (id: 176, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:04:24.142 [error] [redhat.java] provider FAILED
+2023-06-22 15:04:24.143 [error] Error: The request (id: 184, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:04:32.494 [error] onWillSaveTextDocument-listener from extension 'redhat.java' threw ERROR
+2023-06-22 15:04:32.494 [error] Error: timeout
+	at Timeout._onTimeout (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:98:33906)
+	at listOnTimeout (node:internal/timers:559:17)
+	at process.processTimers (node:internal/timers:502:7)
+2023-06-22 15:04:33.304 [error] Error: The request (id: 214, method: 'workspace/executeCommand') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21) java.execute.workspaceCommand {"value":"redhat.java","c":"redhat.java"}
+2023-06-22 15:07:59.535 [error] [redhat.java] provider FAILED
+2023-06-22 15:07:59.548 [error] Error: The request (id: 383, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:08:00.628 [error] [redhat.java] provider FAILED
+2023-06-22 15:08:00.628 [error] Error: Internal error.
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:08:06.663 [error] [redhat.java] provider FAILED
+2023-06-22 15:08:06.663 [error] Error: The request (id: 405, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:08:10.801 [error] [redhat.java] provider FAILED
+2023-06-22 15:08:10.802 [error] Error: The request (id: 422, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:08:42.188 [error] [redhat.java] provider FAILED
+2023-06-22 15:08:42.189 [error] Error: The request (id: 521, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:09:37.924 [error] [redhat.java] provider FAILED
+2023-06-22 15:09:37.925 [error] Error: The request (id: 636, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:09:41.091 [error] [redhat.java] provider FAILED
+2023-06-22 15:09:41.092 [error] Error: The request (id: 640, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:41:56.448 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-22 15:41:57.488 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-22 15:47:11.913 [error] [redhat.java] provider FAILED
+2023-06-22 15:47:11.913 [error] Error: The request (id: 906, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:48:14.177 [error] [redhat.java] provider FAILED
+2023-06-22 15:48:14.178 [error] Error: The request (id: 922, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 16:46:54.394 [error] [redhat.java] provider FAILED
+2023-06-22 16:46:54.448 [error] Error: The request (id: 1035, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 16:55:21.140 [error] [redhat.java] provider FAILED
+2023-06-22 16:55:21.140 [error] Error: The request (id: 1082, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 16:58:00.132 [error] [redhat.java] provider FAILED
+2023-06-22 16:58:00.132 [error] Error: The request (id: 1096, method: 'textDocument/hover') has been cancelled
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)

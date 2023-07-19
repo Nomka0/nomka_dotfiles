@@ -1,0 +1,18 @@
+2023-06-22 08:56:36.092 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-06-22 08:56:36.343 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-06-22 08:56:50.794 [info] [perf] Render performance baseline is 363ms
+2023-06-22 09:19:43.192 [error] Unable to read file '/home/nomka/rust_projects/enum_ipaddr/src/main.rs' (Error: Unable to resolve nonexistent file '/home/nomka/rust_projects/enum_ipaddr/src/main.rs'): Error: Unable to read file '/home/nomka/rust_projects/enum_ipaddr/src/main.rs' (Error: Unable to resolve nonexistent file '/home/nomka/rust_projects/enum_ipaddr/src/main.rs')
+    at e.FileService.w (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:17839)
+    at e.FileService.v (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:624:17501)
+    at async e.NativeTextFileService.H (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:38305)
+    at async e.NativeTextFileService.readStream (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:38000)
+    at async Hs.Ab (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2298:54368)
+    at async Hs.resolve (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2298:52773)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2307:34023
+2023-06-22 09:19:43.205 [error] Error: The editor could not be opened because the file was not found.
+    at lu.cc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2285:93538)
+    at async lu.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2285:92524)
+    at async e.EditorPanes.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2283:23399)
+    at async e.EditorPanes.D (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2283:21994)
+    at async e.EditorPanes.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2283:20897)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2462:13516

@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+2053261569.index
+1865797976.index
+3842426239.index
+1539625237.index

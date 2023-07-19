@@ -1,0 +1,367 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/lombok/lombok-1.18.28.jar -jar /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nomka/.config/Code - OSS/User/globalStorage/redhat.java/1.19.0/config_ss_linux -data /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-06-22 14:35:11.209'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/lombok/lombok-1.18.28.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nomka/.config/Code - OSS/User/globalStorage/redhat.java/1.19.0/config_linux -data /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-06-22 14:35:11.877'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:35:13.976'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.concurrent\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:35:14.010'
+}
+{
+  message: '[Error - 2:36:00 PM] Jun 22, 2023, 2:36:00 PM Problem getting outline for Vista.java: File not found.',
+  level: 'info',
+  timestamp: '2023-06-22 14:36:00.177'
+}
+{
+  message: '[Error - 2:36:00 PM] Jun 22, 2023, 2:36:00 PM Problem with folding range for /jdt.ls-java-project/src/vista/Vista.java\n' +
+    'Vista.java [in vista [in src [in jdt.ls-java-project]]] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): Vista.java [in vista [in src [in jdt.ls-java-project]]] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:961)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:375)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:36:00.305'
+}
+{ level: 'error', timestamp: '2023-06-22 14:36:20.088' }
+{
+  message: "Failed to provide hover command Error: The request (id: 53, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-06-22 14:38:24.516'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 201, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-06-22 14:40:07.441'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 382, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-06-22 14:41:58.201'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 733, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-06-22 14:45:06.361'
+}
+{
+  message: '[Error - 2:45:42 PM] Jun 22, 2023, 2:45:42 PM This refactoring cannot be performed correctly due to syntax errors in the compilation unit. To perform this operation you will need to fix the errors.',
+  level: 'info',
+  timestamp: '2023-06-22 14:45:42.846'
+}
+{
+  message: '[Error - 2:45:50 PM] Jun 22, 2023, 2:45:50 PM failed to send diagnostics\n' +
+    'File not found: /home/nomka/java_projects/parcial_eventos/P.java.\n' +
+    'Java Model Exception: Core Exception [code 368] File not found: /home/nomka/java_projects/parcial_eventos/P.java.\n' +
+    '\tat org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1210)\n' +
+    '\tat org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.visit(WorkspaceDiagnosticsHandler.java:183)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.resourceChanged(WorkspaceDiagnosticsHandler.java:108)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1516)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:210)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: /home/nomka/java_projects/parcial_eventos/P.java.\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)\n' +
+    '\tat org.eclipse.core.internal.resources.File.getContents(File.java:277)\n' +
+    '\tat org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)\n' +
+    '\t... 25 more\n' +
+    'Caused by: java.lang.Exception: File not found: /home/nomka/java_projects/parcial_eventos/P.java.\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)\n' +
+    '\t... 28 more\n' +
+    'Caused by: org.eclipse.core.internal.resources.ResourceException(/java_projects_fd4bc9c9/_/parcial_eventos/P.java)[368]: java.lang.Exception: File not found: /home/nomka/java_projects/parcial_eventos/P.java.\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)\n' +
+    '\tat org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:835)\n' +
+    '\tat org.eclipse.core.internal.resources.File.getContents(File.java:277)\n' +
+    '\tat org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1208)\n' +
+    '\tat org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1201)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openBuffer(CompilationUnit.java:1224)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:114)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.visit(WorkspaceDiagnosticsHandler.java:183)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)\n' +
+    '\tat org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.resourceChanged(WorkspaceDiagnosticsHandler.java:108)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)\n' +
+    '\tat org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1516)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:210)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:45:50.194'
+}
+{
+  message: '[Error - 2:46:06 PM] Jun 22, 2023, 2:46:06 PM This refactoring cannot be performed correctly due to syntax errors in the compilation unit. To perform this operation you will need to fix the errors.',
+  level: 'info',
+  timestamp: '2023-06-22 14:46:06.893'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/lombok/lombok-1.18.28.jar -jar /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nomka/.config/Code - OSS/User/globalStorage/redhat.java/1.19.0/config_ss_linux -data /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-06-22 14:47:45.607'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:47:47.011'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/lombok/lombok-1.18.28.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nomka/.config/Code - OSS/User/globalStorage/redhat.java/1.19.0/config_linux -data /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-06-22 14:47:49.183'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:47:50.899'
+}
+{
+  message: '[Error - 2:48:22 PM] Jun 22, 2023, 2:48:22 PM Error computing hover\n' +
+    "_/parcial_eventos [in java_projects_fd4bc9c9] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/parcial_eventos [in java_projects_fd4bc9c9] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1246)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.findElementsAtSelection(JDTUtils.java:992)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$11(SyntaxLanguageServer.java:406)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:48:22.621'
+}
+{
+  message: '[Error - 2:48:22 PM] Jun 22, 2023, 2:48:22 PM Error computing hover\n' +
+    "_/parcial_eventos [in java_projects_fd4bc9c9] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/parcial_eventos [in java_projects_fd4bc9c9] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1246)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.findElementsAtSelection(JDTUtils.java:992)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$11(SyntaxLanguageServer.java:406)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2023-06-22 14:48:22.670'
+}
+{ level: 'error', timestamp: '2023-06-22 14:48:40.768' }
+{
+  message: '[Error - 2:48:51 PM] Jun 22, 2023, 2:48:51 PM Error occured while building workspace. Details: \n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 397\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 398\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 407\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 408\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 409\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 411\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 415\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 421\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 424\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 425\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 426\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 433\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 434\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 435\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 436\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 438\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 439\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 455\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 472\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 500\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 518\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 553\n' +
+    ' message: Vista cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 573\n' +
+    ' message: The declared package "controlador" does not match the expected package "Biblioteca.Biblioteca.src.controlador"; code: 536871240; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 5\n' +
+    ' message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 7\n' +
+    ' message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 12\n' +
+    ' message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 13\n' +
+    ' message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 14\n' +
+    ' message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 15\n' +
+    ' message: The import dao cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 16\n' +
+    ' message: The import modelo cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 36\n' +
+    ' message: The import vista cannot be resolved; code: 268435846; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 37\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 46\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 47\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 48\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 51\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 52\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 56\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 57\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 58\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 68\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 68\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 69\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 70\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 71\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 71\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 76\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 76\n' +
+    ' message: Prestamo cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 77\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 77\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 83\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 83\n' +
+    ' message: PrestamoDAOImpl cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 113\n' +
+    ' message: AdministrarPrestamos cannot be resolved to a type; code: 16777218; resource: /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorPrestamos.java; line: 172\n' +
+    ' message: AdministrarPres'... 66460 more characters,
+  level: 'info',
+  timestamp: '2023-06-22 14:48:51.443'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 116, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-06-22 15:03:56.235'
+}
+{
+  message: '[Error - 3:08:00 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2023-06-22 15:08:00.596'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Invalid identifier : >Override<\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:649)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n' +
+    'Caused by: java.lang.IllegalArgumentException: Invalid identifier : >Override<\n' +
+    '\tat org.eclipse.jdt.core.dom.SimpleName.setIdentifier(SimpleName.java:247)\n' +
+    '\tat org.eclipse.jdt.core.dom.AST.newSimpleName(AST.java:2853)\n' +
+    '\tat org.eclipse.jdt.core.dom.AST.newName(AST.java:2491)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createOverrideAnnotation(StubUtility2Core.java:1012)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.addOverrideAnnotation(StubUtility2Core.java:997)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createImplementationStubCore(StubUtility2Core.java:450)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createImplementationStubCore(StubUtility2Core.java:319)\n' +
+    '\tat org.eclipse.jdt.internal.corext.codemanipulation.StubUtility2Core.createImplementationStubCore(StubUtility2Core.java:313)\n' +
+    '\tat org.eclipse.jdt.internal.corext.fix.AddUnimplementedMethodsOperation.rewriteAST(AddUnimplementedMethodsOperation.java:111)\n' +
+    '\tat org.eclipse.jdt.internal.corext.fix.CompilationUnitRewriteOperationsFixCore.createChange(CompilationUnitRewriteOperationsFixCore.java:98)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.proposals.LocalCorrectionsSubProcessor.addUnimplementedMethodsProposals(LocalCorrectionsSubProcessor.java:415)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.process(QuickFixProcessor.java:299)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.corrections.QuickFixProcessor.getCorrections(QuickFixProcessor.java:87)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:166)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$13(JDTLanguageServer.java:725)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\t... 6 more\n',
+  level: 'info',
+  timestamp: '2023-06-22 15:08:00.599'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 815, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-06-22 15:11:02.100'
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/lombok/lombok-1.18.28.jar -jar /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nomka/.config/Code - OSS/User/globalStorage/redhat.java/1.19.0/config_ss_linux -data /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-06-22 21:50:32.640'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-20-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/lombok/lombok-1.18.28.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nomka/.config/Code - OSS/User/globalStorage/redhat.java/1.19.0/config_linux -data /home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-06-22 21:50:35.621'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.concurrent, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:50:43.844'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.concurrent\n',
+  level: 'info',
+  timestamp: '2023-06-22 21:50:43.899'
+}
+{ level: 'error', timestamp: '2023-06-22 21:51:46.132' }

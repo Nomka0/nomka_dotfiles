@@ -1,0 +1,39 @@
+2023-06-23 23:44:16.813 [info] Log level: Info
+2023-06-23 23:44:16.814 [info] Validating found git in: "git"
+2023-06-23 23:44:16.814 [info] Using git "2.41.0" from "git"
+2023-06-23 23:44:16.814 [info] > git rev-parse --show-toplevel [60ms]
+2023-06-23 23:44:16.814 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-23 23:44:16.847 [info] > git rev-parse --show-toplevel [95ms]
+2023-06-23 23:44:16.847 [info] > git rev-parse --git-dir --git-common-dir [39ms]
+2023-06-23 23:44:16.847 [info] Open repository: /home/nomka/java_projects/Biblioteca
+2023-06-23 23:44:16.847 [info] > git rev-parse --show-toplevel [234ms]
+2023-06-23 23:44:16.847 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-23 23:44:16.847 [info] > git config --get commit.template [145ms]
+2023-06-23 23:44:16.848 [info] > git rev-parse --show-toplevel [265ms]
+2023-06-23 23:44:16.848 [info] > git rev-parse --git-dir --git-common-dir [71ms]
+2023-06-23 23:44:16.848 [info] Open repository: /home/nomka/java_projects/fugadeletras
+2023-06-23 23:44:16.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [405ms]
+2023-06-23 23:44:16.848 [info] > git config --get commit.template [160ms]
+2023-06-23 23:44:16.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [91ms]
+2023-06-23 23:44:16.848 [info] > git status -z -uall [578ms]
+2023-06-23 23:44:16.848 [info] > git status -z -uall [221ms]
+2023-06-23 23:44:16.848 [info] > git config --get commit.template [1022ms]
+2023-06-23 23:44:16.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [462ms]
+2023-06-23 23:44:16.848 [info] > git status -z -uall [712ms]
+2023-06-23 23:44:16.848 [info] > git check-ignore -v -z --stdin [471ms]
+2023-06-23 23:44:16.849 [info] > git check-ignore -v -z --stdin [248ms]
+2023-06-23 23:44:18.096 [info] > git rev-parse --show-toplevel [88ms]
+2023-06-23 23:44:18.097 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-23 23:44:30.336 [info] > git show --textconv :Biblioteca/src/controlador/ControladorUsuarios.java [390ms]
+2023-06-23 23:44:30.436 [info] > git ls-files --stage -- /home/nomka/java_projects/Biblioteca/Biblioteca/src/controlador/ControladorUsuarios.java [98ms]
+2023-06-23 23:44:30.750 [info] > git cat-file -s 569bffac72e235be5bb528f11c77e77bd2c8ac14 [71ms]
+2023-06-23 23:44:33.600 [info] > git rev-parse --show-toplevel [85ms]
+2023-06-23 23:44:33.600 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-24 00:06:18.761 [info] > git check-ignore -v -z --stdin [25ms]
+2023-06-24 00:06:33.202 [info] > git rev-parse --show-toplevel [329ms]
+2023-06-24 00:06:33.203 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-24 00:06:43.749 [info] > git rev-parse --show-toplevel [239ms]
+2023-06-24 00:06:43.750 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-24 00:06:53.983 [info] > git check-ignore -v -z --stdin [188ms]
+2023-06-24 00:06:53.996 [info] > git check-ignore -v -z --stdin [34ms]
+2023-06-24 00:06:56.263 [info] > git check-ignore -v -z --stdin [78ms]

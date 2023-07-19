@@ -1,0 +1,17 @@
+2023-06-22 14:47:36.229 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-06-22 14:47:36.600 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-06-22 14:48:01.745 [info] [perf] Render performance baseline is 922ms
+2023-06-22 14:51:47.326 [info] [onWill-handler] applying additional workspace edit from extensions ["Language Support for Java(TM) by Red Hat"]
+2023-06-22 14:52:31.876 [info] [onWill-handler] applying additional workspace edit from extensions ["Language Support for Java(TM) by Red Hat"]
+2023-06-22 15:04:32.827 [error] Error: listener failed
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1844:13693
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1844:11176
+2023-06-22 15:07:02.023 [info] [onWill-handler] applying additional workspace edit from extensions ["Language Support for Java(TM) by Red Hat"]
+2023-06-22 15:08:00.636 [error] Internal error.: Error: Internal error.
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088426
+	at ie (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1088720)
+	at /home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083504
+	at Immediate.<anonymous> (/home/nomka/.vscode-oss/extensions/redhat.java-1.19.0-universal/dist/extension.js:2:1083524)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-06-22 15:42:04.252 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-06-22 15:42:09.544 [info] UNRESPONSIVE extension host: starting to profile NOW

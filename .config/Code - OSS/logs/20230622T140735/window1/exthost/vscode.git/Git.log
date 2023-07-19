@@ -1,0 +1,88 @@
+2023-06-22 14:08:11.464 [info] Log level: Info
+2023-06-22 14:08:11.464 [info] Validating found git in: "git"
+2023-06-22 14:08:12.440 [info] Using git "2.41.0" from "git"
+2023-06-22 14:08:12.681 [info] > git rev-parse --show-toplevel [152ms]
+2023-06-22 14:08:12.682 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:08:12.813 [info] > git rev-parse --show-toplevel [82ms]
+2023-06-22 14:08:12.813 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:08:12.841 [info] > git rev-parse --show-toplevel [6ms]
+2023-06-22 14:08:12.841 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:08:12.911 [info] > git rev-parse --show-toplevel [31ms]
+2023-06-22 14:08:12.911 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:08:14.498 [info] > git rev-parse --show-toplevel [27ms]
+2023-06-22 14:08:14.498 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:32:10.495 [info] Log level: Info
+2023-06-22 14:32:10.495 [info] Validating found git in: "git"
+2023-06-22 14:32:10.495 [info] Using git "2.41.0" from "git"
+2023-06-22 14:32:10.495 [info] > git rev-parse --show-toplevel [25ms]
+2023-06-22 14:32:10.495 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:32:10.495 [info] > git rev-parse --show-toplevel [5ms]
+2023-06-22 14:32:10.495 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:32:10.741 [info] > git rev-parse --show-toplevel [16ms]
+2023-06-22 14:32:10.741 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:32:59.528 [info] > git rev-parse --show-toplevel [5ms]
+2023-06-22 14:32:59.528 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:34:44.859 [info] > git rev-parse --show-toplevel [6ms]
+2023-06-22 14:34:44.889 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-06-22 14:34:44.951 [info] Open repository: /home/nomka/java_projects/Biblioteca
+2023-06-22 14:34:45.023 [info] > git config --get commit.template [21ms]
+2023-06-22 14:34:45.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2023-06-22 14:34:45.117 [info] > git status -z -uall [6ms]
+2023-06-22 14:34:45.173 [info] > git config --get commit.template [9ms]
+2023-06-22 14:34:45.199 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-06-22 14:34:45.226 [info] > git status -z -uall [5ms]
+2023-06-22 14:34:45.587 [info] > git check-ignore -v -z --stdin [10ms]
+2023-06-22 14:34:47.184 [info] > git config --get commit.template [11ms]
+2023-06-22 14:34:47.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-06-22 14:34:47.271 [info] > git status -z -uall [21ms]
+2023-06-22 14:34:50.415 [info] > git check-ignore -v -z --stdin [15ms]
+2023-06-22 14:34:58.164 [info] > git check-ignore -v -z --stdin [6ms]
+2023-06-22 14:35:01.335 [info] > git check-ignore -v -z --stdin [6ms]
+2023-06-22 14:35:03.013 [info] > git check-ignore -v -z --stdin [4ms]
+2023-06-22 14:35:07.004 [info] > git check-ignore -v -z --stdin [8ms]
+2023-06-22 14:35:10.514 [info] > git show --textconv :Biblioteca/src/vista/Vista.java [119ms]
+2023-06-22 14:35:10.515 [info] > git ls-files --stage -- /home/nomka/java_projects/Biblioteca/Biblioteca/src/vista/Vista.java [94ms]
+2023-06-22 14:35:10.598 [info] > git cat-file -s babf3d2f2023d148304298e77746cce2fba0622d [49ms]
+2023-06-22 14:36:55.071 [info] > git rev-parse --show-toplevel [27ms]
+2023-06-22 14:36:55.094 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:37:05.448 [info] > git rev-parse --show-toplevel [28ms]
+2023-06-22 14:37:05.484 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2023-06-22 14:37:05.538 [info] Open repository: /home/nomka/java_projects/fugadeletras
+2023-06-22 14:37:05.620 [info] > git config --get commit.template [38ms]
+2023-06-22 14:37:05.904 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [53ms]
+2023-06-22 14:37:06.238 [info] > git status -z -uall [232ms]
+2023-06-22 14:37:06.885 [info] > git show --textconv :FugaDeLetras1/src/vista/Principal.java [79ms]
+2023-06-22 14:37:06.926 [info] > git ls-files --stage -- /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/Principal.java [45ms]
+2023-06-22 14:37:07.152 [info] > git check-ignore -v -z --stdin [72ms]
+2023-06-22 14:37:07.184 [info] > git cat-file -s 12023b8adaf6e598ebf157837cc40f7958734c3a [193ms]
+2023-06-22 14:37:07.242 [info] > git check-ignore -v -z --stdin [100ms]
+2023-06-22 14:38:32.601 [info] > git show --textconv :FugaDeLetras1/src/vista/VentanaPrincipal.java [69ms]
+2023-06-22 14:38:32.635 [info] > git ls-files --stage -- /home/nomka/java_projects/fugadeletras/FugaDeLetras1/src/vista/VentanaPrincipal.java [54ms]
+2023-06-22 14:38:32.701 [info] > git cat-file -s 2ce722567490fd12f684c31db768d019221a2e5e [26ms]
+2023-06-22 14:39:06.495 [info] > git check-ignore -v -z --stdin [45ms]
+2023-06-22 14:39:08.399 [info] > git check-ignore -v -z --stdin [8ms]
+2023-06-22 14:39:16.625 [info] > git rev-parse --show-toplevel [22ms]
+2023-06-22 14:39:16.625 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:39:20.335 [info] > git rev-parse --show-toplevel [10ms]
+2023-06-22 14:39:20.335 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:39:25.079 [info] > git rev-parse --show-toplevel [27ms]
+2023-06-22 14:39:25.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:41:30.272 [info] > git rev-parse --show-toplevel [5ms]
+2023-06-22 14:41:30.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:43:25.093 [info] > git check-ignore -v -z --stdin [75ms]
+2023-06-22 14:43:33.355 [info] > git check-ignore -v -z --stdin [6ms]
+2023-06-22 14:43:35.131 [info] > git ls-files --stage -- /home/nomka/java_projects/Biblioteca/Biblioteca/src/main/Main.java [20ms]
+2023-06-22 14:43:35.231 [info] > git show --textconv :Biblioteca/src/main/Main.java [148ms]
+2023-06-22 14:43:35.234 [info] > git cat-file -s a743566ea01500d59c5a1bed7a20e5375b7231b0 [43ms]
+2023-06-22 14:43:44.832 [info] > git rev-parse --show-toplevel [19ms]
+2023-06-22 14:43:44.833 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:45:43.552 [info] > git rev-parse --show-toplevel [25ms]
+2023-06-22 14:45:43.568 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:45:50.008 [info] > git rev-parse --show-toplevel [20ms]
+2023-06-22 14:45:50.008 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:46:07.857 [info] > git rev-parse --show-toplevel [139ms]
+2023-06-22 14:46:07.857 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:47:06.695 [info] > git rev-parse --show-toplevel [11ms]
+2023-06-22 14:47:06.711 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 14:47:06.849 [info] > git rev-parse --show-toplevel [7ms]
+2023-06-22 14:47:06.849 [info] fatal: not a git repository (or any of the parent directories): .git

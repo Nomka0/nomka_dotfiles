@@ -1,0 +1,5 @@
+2023-06-22 14:07:38.406 [info] update#ctor - updates are disabled as there is no update URL
+2023-06-22 14:31:52.875 [info] Extension host with pid 6005 exited with code: 0, signal: unknown.
+2023-06-22 14:47:09.442 [info] Extension host with pid 44078 exited with code: 0, signal: unknown.
+2023-06-22 14:47:10.674 [warning] [storage main] detected slow close() operation: Time: 2063ms, DB size: 155648b, Large Keys: iconThemeData:90014, colorThemeData:14404, ms-python.python:3361, workbench.activity.placeholderViewlets:2082, __$__targetStorageMarker:1741
+2023-06-22 14:47:10.739 [warning] [storage main] detected slow close() operation: Time: 2131ms, DB size: 40960b, Large Keys: memento/workbench.editors.files.textFileEditor:2689, __$__targetStorageMarker:1392, codelens/cache2:1268, workbench.explorer.treeViewState:825, memento/workbench.parts.editor:668

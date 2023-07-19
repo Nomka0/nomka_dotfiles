@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/nomka/.config/Code - OSS/User/workspaceStorage/cd909f1a8cb7c87d670ba4f3a9b75e10/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

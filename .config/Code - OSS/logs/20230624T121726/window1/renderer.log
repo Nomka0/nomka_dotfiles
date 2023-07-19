@@ -1,0 +1,4 @@
+2023-06-24 12:17:52.990 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-06-24 12:17:53.530 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-06-24 12:18:06.801 [info] [perf] Render performance baseline is 235ms
+2023-06-24 12:36:18.719 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

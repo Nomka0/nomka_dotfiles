@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/nomka/.config/Code - OSS/User/workspaceStorage/15377a40b5bbf1e5358b097ca06bd2fb/redhat.java/.9abcacdd8580e7f3174abe1926df8176559153e4-audit.json",
+    "files": [
+        {
+            "date": 1686198699172,
+            "name": "/home/nomka/.config/Code - OSS/User/workspaceStorage/15377a40b5bbf1e5358b097ca06bd2fb/redhat.java/client.log.2023-06-07",
+            "hash": "bfdb406abb6e32eeb1c0286d0a1afcd1"
+        }
+    ]
+}

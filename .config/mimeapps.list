@@ -1,0 +1,10 @@
+[Added Associations]
+text/plain=xed.desktop;
+application/x-zerosize=xed.desktop;
+audio/mpeg=vlc.desktop;
+video/x-matroska=mpv.desktop;vlc.desktop;
+
+[Default Applications]
+application/x-zerosize=xed.desktop
+audio/mpeg=vlc.desktop
+x-scheme-handler/eclipse+command x-scheme-handler/eclipse+mpc=_usr_lib_eclipse_.desktop

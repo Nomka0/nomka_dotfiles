@@ -1,0 +1,1 @@
+/home/nomka/.fzf/shell/key-bindings.fish

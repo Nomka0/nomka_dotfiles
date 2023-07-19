@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="_/fugadeletras/FugaDeLetras1/src"/>
+	<classpathentry kind="src" path="_/Biblioteca/Biblioteca/src"/>
+	<classpathentry excluding="fugadeletras/FugaDeLetras1/src/|Biblioteca/Biblioteca/src/" kind="src" path="_"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

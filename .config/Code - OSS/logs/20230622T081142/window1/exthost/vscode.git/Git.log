@@ -1,0 +1,240 @@
+2023-06-22 08:12:23.930 [info] Log level: Info
+2023-06-22 08:12:23.930 [info] Validating found git in: "git"
+2023-06-22 08:12:25.699 [info] Using git "2.41.0" from "git"
+2023-06-22 08:12:25.837 [info] > git rev-parse --show-toplevel [68ms]
+2023-06-22 08:12:25.837 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 08:12:25.965 [info] > git rev-parse --show-toplevel [95ms]
+2023-06-22 08:12:26.135 [info] > git rev-parse --git-dir --git-common-dir [116ms]
+2023-06-22 08:12:26.326 [info] Open repository: /home/nomka/rust_projects/enum_ipaddr
+2023-06-22 08:12:26.448 [info] > git rev-parse --show-toplevel [66ms]
+2023-06-22 08:12:26.448 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 08:12:26.822 [info] > git rev-parse --show-toplevel [333ms]
+2023-06-22 08:12:26.855 [info] > git config --get commit.template [422ms]
+2023-06-22 08:12:26.984 [info] > git rev-parse --git-dir --git-common-dir [131ms]
+2023-06-22 08:12:27.026 [info] Open repository: /home/nomka/rust_projects/branches
+2023-06-22 08:12:27.164 [info] No remotes found in the git config file.
+2023-06-22 08:12:27.201 [info] > git check-ignore -v -z --stdin [238ms]
+2023-06-22 08:12:27.220 [info] > git config --get commit.template [26ms]
+2023-06-22 08:12:27.222 [info] > git rev-parse --show-toplevel [153ms]
+2023-06-22 08:12:27.305 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2023-06-22 08:12:27.341 [info] Open repository: /home/nomka/rust_projects/celsius_to_fahrenheit
+2023-06-22 08:12:27.437 [info] No remotes found in the git config file.
+2023-06-22 08:12:27.483 [info] > git config --get commit.template [23ms]
+2023-06-22 08:12:27.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [47ms]
+2023-06-22 08:12:27.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [353ms]
+2023-06-22 08:12:27.581 [info] > git rev-parse --show-toplevel [202ms]
+2023-06-22 08:12:27.640 [info] No remotes found in the git config file.
+2023-06-22 08:12:27.644 [info] > git rev-parse --git-dir --git-common-dir [36ms]
+2023-06-22 08:12:27.683 [info] Open repository: /home/nomka/rust_projects/christmas
+2023-06-22 08:12:27.801 [info] > git status -z -uall [290ms]
+2023-06-22 08:12:27.802 [info] > git status -z -uall [261ms]
+2023-06-22 08:12:27.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [164ms]
+2023-06-22 08:12:27.880 [info] > git config --get commit.template [87ms]
+2023-06-22 08:12:27.882 [info] > git rev-parse --show-toplevel [167ms]
+2023-06-22 08:12:28.123 [info] > git status -z -uall [274ms]
+2023-06-22 08:12:28.126 [info] > git rev-parse --git-dir --git-common-dir [203ms]
+2023-06-22 08:12:28.188 [info] Open repository: /home/nomka/rust_projects/data_types
+2023-06-22 08:12:28.496 [info] No remotes found in the git config file.
+2023-06-22 08:12:28.600 [info] > git check-ignore -v -z --stdin [228ms]
+2023-06-22 08:12:28.603 [info] > git check-ignore -v -z --stdin [198ms]
+2023-06-22 08:12:28.606 [info] > git check-ignore -v -z --stdin [173ms]
+2023-06-22 08:12:28.612 [info] > git check-ignore -v -z --stdin [141ms]
+2023-06-22 08:12:28.616 [info] > git rev-parse --show-toplevel [392ms]
+2023-06-22 08:12:28.645 [info] > git config --get commit.template [526ms]
+2023-06-22 08:12:28.646 [info] > git config --get commit.template [576ms]
+2023-06-22 08:12:28.682 [info] > git rev-parse --git-dir --git-common-dir [40ms]
+2023-06-22 08:12:28.719 [info] Open repository: /home/nomka/rust_projects/fibonacci
+2023-06-22 08:12:28.751 [info] > git config --get commit.template [196ms]
+2023-06-22 08:12:28.752 [info] > git config --get commit.template [227ms]
+2023-06-22 08:12:28.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [259ms]
+2023-06-22 08:12:28.849 [info] No remotes found in the git config file.
+2023-06-22 08:12:28.871 [info] No remotes found in the git config file.
+2023-06-22 08:12:28.898 [info] > git status -z -uall [125ms]
+2023-06-22 08:12:28.983 [info] No remotes found in the git config file.
+2023-06-22 08:12:29.003 [info] No remotes found in the git config file.
+2023-06-22 08:12:29.038 [info] > git config --get commit.template [142ms]
+2023-06-22 08:12:29.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [169ms]
+2023-06-22 08:12:29.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [223ms]
+2023-06-22 08:12:29.105 [info] > git rev-parse --show-toplevel [356ms]
+2023-06-22 08:12:29.155 [info] > git status -z -uall [86ms]
+2023-06-22 08:12:29.155 [info] > git status -z -uall [52ms]
+2023-06-22 08:12:29.158 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2023-06-22 08:12:29.200 [info] Open repository: /home/nomka/rust_projects/functions
+2023-06-22 08:12:29.280 [info] > git config --get commit.template [251ms]
+2023-06-22 08:12:29.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [278ms]
+2023-06-22 08:12:29.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [322ms]
+2023-06-22 08:12:29.512 [info] No remotes found in the git config file.
+2023-06-22 08:12:29.551 [info] > git status -z -uall [248ms]
+2023-06-22 08:12:29.551 [info] > git status -z -uall [219ms]
+2023-06-22 08:12:29.552 [info] > git check-ignore -v -z --stdin [194ms]
+2023-06-22 08:12:29.555 [info] > git check-ignore -v -z --stdin [174ms]
+2023-06-22 08:12:29.557 [info] > git check-ignore -v -z --stdin [152ms]
+2023-06-22 08:12:29.558 [info] > git check-ignore -v -z --stdin [130ms]
+2023-06-22 08:12:29.560 [info] > git check-ignore -v -z --stdin [107ms]
+2023-06-22 08:12:29.564 [info] > git check-ignore -v -z --stdin [79ms]
+2023-06-22 08:12:29.603 [info] > git rev-parse --show-toplevel [375ms]
+2023-06-22 08:12:29.690 [info] No remotes found in the git config file.
+2023-06-22 08:12:29.725 [info] > git rev-parse --git-dir --git-common-dir [100ms]
+2023-06-22 08:12:29.756 [info] Open repository: /home/nomka/rust_projects/guessing_game
+2023-06-22 08:12:29.788 [info] > git config --get commit.template [249ms]
+2023-06-22 08:12:29.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [279ms]
+2023-06-22 08:12:29.933 [info] > git status -z -uall [106ms]
+2023-06-22 08:12:29.958 [info] > git rev-parse --show-toplevel [171ms]
+2023-06-22 08:12:29.979 [info] > git config --get commit.template [264ms]
+2023-06-22 08:12:29.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [291ms]
+2023-06-22 08:12:30.209 [info] No remotes found in the git config file.
+2023-06-22 08:12:30.256 [info] > git status -z -uall [250ms]
+2023-06-22 08:12:30.289 [info] > git rev-parse --git-dir --git-common-dir [311ms]
+2023-06-22 08:12:30.342 [info] Open repository: /home/nomka/rust_projects/hello_cargo
+2023-06-22 08:12:30.405 [info] > git config --get commit.template [476ms]
+2023-06-22 08:12:30.476 [info] No remotes found in the git config file.
+2023-06-22 08:12:30.550 [info] > git rev-parse --show-toplevel [146ms]
+2023-06-22 08:12:30.550 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 08:12:30.586 [info] > git config --get commit.template [334ms]
+2023-06-22 08:12:30.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [393ms]
+2023-06-22 08:12:30.921 [info] No remotes found in the git config file.
+2023-06-22 08:12:30.956 [info] > git status -z -uall [312ms]
+2023-06-22 08:12:30.957 [info] > git check-ignore -v -z --stdin [266ms]
+2023-06-22 08:12:30.959 [info] > git check-ignore -v -z --stdin [243ms]
+2023-06-22 08:12:30.960 [info] > git check-ignore -v -z --stdin [216ms]
+2023-06-22 08:12:30.961 [info] > git check-ignore -v -z --stdin [187ms]
+2023-06-22 08:12:30.966 [info] > git check-ignore -v -z --stdin [157ms]
+2023-06-22 08:12:30.968 [info] > git check-ignore -v -z --stdin [130ms]
+2023-06-22 08:12:30.970 [info] > git check-ignore -v -z --stdin [105ms]
+2023-06-22 08:12:30.972 [info] > git check-ignore -v -z --stdin [80ms]
+2023-06-22 08:12:30.993 [info] > git rev-parse --show-toplevel [408ms]
+2023-06-22 08:12:31.015 [info] > git config --get commit.template [475ms]
+2023-06-22 08:12:31.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [541ms]
+2023-06-22 08:12:31.125 [info] No remotes found in the git config file.
+2023-06-22 08:12:31.160 [info] > git status -z -uall [105ms]
+2023-06-22 08:12:31.177 [info] > git rev-parse --git-dir --git-common-dir [163ms]
+2023-06-22 08:12:31.223 [info] Open repository: /home/nomka/rust_projects/ownership_concepts
+2023-06-22 08:12:31.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [344ms]
+2023-06-22 08:12:31.392 [info] No remotes found in the git config file.
+2023-06-22 08:12:31.426 [info] > git config --get commit.template [278ms]
+2023-06-22 08:12:31.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [303ms]
+2023-06-22 08:12:31.461 [info] > git status -z -uall [156ms]
+2023-06-22 08:12:31.461 [info] > git status -z -uall [10ms]
+2023-06-22 08:12:31.471 [info] > git config --get commit.template [48ms]
+2023-06-22 08:12:31.472 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [81ms]
+2023-06-22 08:12:31.496 [info] > git rev-parse --show-toplevel [233ms]
+2023-06-22 08:12:31.569 [info] No remotes found in the git config file.
+2023-06-22 08:12:31.594 [info] > git status -z -uall [99ms]
+2023-06-22 08:12:31.595 [info] > git rev-parse --git-dir --git-common-dir [77ms]
+2023-06-22 08:12:31.626 [info] Open repository: /home/nomka/rust_projects/rectangle_area
+2023-06-22 08:12:31.722 [info] No remotes found in the git config file.
+2023-06-22 08:12:31.772 [info] > git config --get commit.template [181ms]
+2023-06-22 08:12:31.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [205ms]
+2023-06-22 08:12:31.834 [info] > git status -z -uall [35ms]
+2023-06-22 08:12:31.841 [info] > git config --get commit.template [72ms]
+2023-06-22 08:12:31.842 [info] > git config --get commit.template [97ms]
+2023-06-22 08:12:31.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [121ms]
+2023-06-22 08:12:31.890 [info] > git rev-parse --show-toplevel [237ms]
+2023-06-22 08:12:31.943 [info] No remotes found in the git config file.
+2023-06-22 08:12:31.945 [info] > git status -z -uall [57ms]
+2023-06-22 08:12:31.947 [info] > git rev-parse --git-dir --git-common-dir [35ms]
+2023-06-22 08:12:31.973 [info] Open repository: /home/nomka/rust_projects/rectangle_impl
+2023-06-22 08:12:32.172 [info] No remotes found in the git config file.
+2023-06-22 08:12:32.214 [info] No remotes found in the git config file.
+2023-06-22 08:12:32.273 [info] > git rev-parse --show-toplevel [273ms]
+2023-06-22 08:12:32.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [372ms]
+2023-06-22 08:12:32.389 [info] > git status -z -uall [41ms]
+2023-06-22 08:12:32.403 [info] > git rev-parse --git-dir --git-common-dir [89ms]
+2023-06-22 08:12:32.425 [info] Open repository: /home/nomka/rust_projects/ref_and_borrowing
+2023-06-22 08:12:32.453 [info] > git config --get commit.template [184ms]
+2023-06-22 08:12:32.453 [info] > git config --get commit.template [210ms]
+2023-06-22 08:12:32.454 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [241ms]
+2023-06-22 08:12:32.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [310ms]
+2023-06-22 08:12:32.561 [info] > git status -z -uall [80ms]
+2023-06-22 08:12:32.561 [info] > git status -z -uall [56ms]
+2023-06-22 08:12:32.632 [info] No remotes found in the git config file.
+2023-06-22 08:12:32.654 [info] No remotes found in the git config file.
+2023-06-22 08:12:32.678 [info] > git config --get commit.template [121ms]
+2023-06-22 08:12:32.680 [info] > git rev-parse --show-toplevel [228ms]
+2023-06-22 08:12:32.759 [info] > git rev-parse --git-dir --git-common-dir [56ms]
+2023-06-22 08:12:32.791 [info] Open repository: /home/nomka/rust_projects/slice
+2023-06-22 08:12:32.833 [info] > git config --get commit.template [158ms]
+2023-06-22 08:12:32.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [181ms]
+2023-06-22 08:12:32.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [231ms]
+2023-06-22 08:12:32.921 [info] No remotes found in the git config file.
+2023-06-22 08:12:32.949 [info] > git status -z -uall [90ms]
+2023-06-22 08:12:32.949 [info] > git status -z -uall [58ms]
+2023-06-22 08:12:32.977 [info] > git rev-parse --show-toplevel [149ms]
+2023-06-22 08:12:33.049 [info] No remotes found in the git config file.
+2023-06-22 08:12:33.085 [info] > git rev-parse --git-dir --git-common-dir [87ms]
+2023-06-22 08:12:33.112 [info] Open repository: /home/nomka/rust_projects/structs
+2023-06-22 08:12:33.152 [info] > git config --get commit.template [208ms]
+2023-06-22 08:12:33.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [233ms]
+2023-06-22 08:12:33.254 [info] > git status -z -uall [71ms]
+2023-06-22 08:12:33.255 [info] > git config --get commit.template [174ms]
+2023-06-22 08:12:33.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [208ms]
+2023-06-22 08:12:33.327 [info] No remotes found in the git config file.
+2023-06-22 08:12:33.332 [info] > git status -z -uall [52ms]
+2023-06-22 08:12:33.345 [info] > git config --get commit.template [98ms]
+2023-06-22 08:12:33.345 [info] > git rev-parse --show-toplevel [194ms]
+2023-06-22 08:12:33.423 [info] No remotes found in the git config file.
+2023-06-22 08:12:33.455 [info] > git rev-parse --git-dir --git-common-dir [82ms]
+2023-06-22 08:12:33.479 [info] Open repository: /home/nomka/rust_projects/tuple_structs
+2023-06-22 08:12:33.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [179ms]
+2023-06-22 08:12:33.573 [info] No remotes found in the git config file.
+2023-06-22 08:12:33.597 [info] > git config --get commit.template [145ms]
+2023-06-22 08:12:33.598 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [175ms]
+2023-06-22 08:12:33.651 [info] > git status -z -uall [120ms]
+2023-06-22 08:12:33.651 [info] > git status -z -uall [25ms]
+2023-06-22 08:12:33.666 [info] > git config --get commit.template [72ms]
+2023-06-22 08:12:33.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [94ms]
+2023-06-22 08:12:33.689 [info] > git rev-parse --show-toplevel [184ms]
+2023-06-22 08:12:33.763 [info] No remotes found in the git config file.
+2023-06-22 08:12:33.791 [info] > git status -z -uall [104ms]
+2023-06-22 08:12:33.792 [info] > git rev-parse --git-dir --git-common-dir [83ms]
+2023-06-22 08:12:33.817 [info] Open repository: /home/nomka/rust_projects/variables
+2023-06-22 08:12:33.984 [info] No remotes found in the git config file.
+2023-06-22 08:12:34.038 [info] > git show --textconv :src/main.rs [166ms]
+2023-06-22 08:12:34.040 [info] > git ls-files --stage -- /home/nomka/rust_projects/enum_ipaddr/src/main.rs [139ms]
+2023-06-22 08:12:34.054 [info] > git rev-parse --show-toplevel [211ms]
+2023-06-22 08:12:34.054 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-06-22 08:12:34.054 [info] > git config --get commit.template [265ms]
+2023-06-22 08:12:34.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [293ms]
+2023-06-22 08:12:34.155 [info] > git status -z -uall [66ms]
+2023-06-22 08:12:34.166 [info] > git config --get commit.template [131ms]
+2023-06-22 08:12:34.166 [info] > git config --get commit.template [161ms]
+2023-06-22 08:12:34.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [184ms]
+2023-06-22 08:12:34.245 [info] No remotes found in the git config file.
+2023-06-22 08:12:34.300 [info] No remotes found in the git config file.
+2023-06-22 08:12:34.324 [info] No remotes found in the git config file.
+2023-06-22 08:12:34.326 [info] > git status -z -uall [136ms]
+2023-06-22 08:12:34.326 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [82ms]
+2023-06-22 08:12:34.426 [info] > git status -z -uall [72ms]
+2023-06-22 08:12:34.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [111ms]
+2023-06-22 08:12:34.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [170ms]
+2023-06-22 08:12:34.502 [info] > git status -z -uall [39ms]
+2023-06-22 08:12:34.503 [info] > git status -z -uall [13ms]
+2023-06-22 08:12:34.527 [info] > git config --get commit.template [104ms]
+2023-06-22 08:12:34.618 [info] No remotes found in the git config file.
+2023-06-22 08:12:34.624 [info] > git config --get commit.template [49ms]
+2023-06-22 08:12:35.414 [info] > git check-ignore -v -z --stdin [725ms]
+2023-06-22 08:12:35.421 [info] > git check-ignore -v -z --stdin [705ms]
+2023-06-22 08:12:35.423 [info] > git check-ignore -v -z --stdin [684ms]
+2023-06-22 08:12:35.425 [info] > git check-ignore -v -z --stdin [650ms]
+2023-06-22 08:12:35.427 [info] > git check-ignore -v -z --stdin [617ms]
+2023-06-22 08:12:35.428 [info] > git check-ignore -v -z --stdin [595ms]
+2023-06-22 08:12:35.431 [info] > git check-ignore -v -z --stdin [575ms]
+2023-06-22 08:12:35.433 [info] > git check-ignore -v -z --stdin [552ms]
+2023-06-22 08:12:35.435 [info] > git check-ignore -v -z --stdin [514ms]
+2023-06-22 08:12:35.444 [info] > git check-ignore -v -z --stdin [496ms]
+2023-06-22 08:12:35.446 [info] > git check-ignore -v -z --stdin [458ms]
+2023-06-22 08:12:35.449 [info] > git check-ignore -v -z --stdin [411ms]
+2023-06-22 08:12:35.451 [info] > git check-ignore -v -z --stdin [322ms]
+2023-06-22 08:12:35.453 [info] > git check-ignore -v -z --stdin [257ms]
+2023-06-22 08:12:35.456 [info] > git check-ignore -v -z --stdin [169ms]
+2023-06-22 08:12:35.458 [info] > git check-ignore -v -z --stdin [122ms]
+2023-06-22 08:12:35.462 [info] > git check-ignore -v -z --stdin [77ms]
+2023-06-22 08:12:35.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [848ms]
+2023-06-22 08:12:35.677 [info] No remotes found in the git config file.
+2023-06-22 08:12:35.694 [info] > git status -z -uall [154ms]
+2023-06-22 08:12:35.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [62ms]
+2023-06-22 08:12:35.877 [info] > git status -z -uall [33ms]
+2023-06-22 08:27:46.091 [info] No remotes found in the git config file.
+2023-06-22 08:27:46.094 [info] > git config --get commit.template [29ms]
+2023-06-22 08:27:46.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2023-06-22 08:27:46.174 [info] > git status -z -uall [28ms]
