@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+#my $playing = qx{playerctl --player=spotifyd status};
+my $playing = qx{/usr/bin/spt pb -f %s}; 
+print "$playing\n" ;
+
+
+=for comment
+my %status_icons = (
+    "Stopped" => "",
+    "Playing" => "",
+    "Paused"  => "",
+);
+
+if (exists $status_icons{$playing}) {
+    print $status_icons{$playing} . "\n";
+}
+=cut
+

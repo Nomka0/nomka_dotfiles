@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+#
+# i3blocks spotifyd prompt for current song
+# Copyright 2023 Nomka0 <github.com/Nomka0>
+
+# Licensed under the terms of the GNU GPL v3, or any later version.
+
+
+use strict;
+use warnings;
+use Time::HiRes qw(usleep);
+
+
+while (1) {
+  #my $time = qx{/usr/bin/spt pb -f %r};
+  my $time = qx{playerctl --player=spotifyd position --format "{{ duration(position) }}"};
+  my ($clean_time) = $time =~ /^(\S+)/;
+  my $test = 1; 
+
+  #print "$test\n";
+  print "$clean_time\n";
+  usleep(100000);
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#
+# i3blocks spotifyd prompt for current song
+# Copyright 2023 Nomka0 <github.com/Nomka0>
+
+# Licensed under the terms of the GNU GPL v3, or any later version.
+
+playing=$(/usr/bin/spt pb -f %s) 
+
+while true
+do
+    time=$(/usr/bin/spt pb -f %r) 
+    #clean_time=$(echo "$time" | awk '{print $1}')
+    echo "$time"
+    sleep 1
+done

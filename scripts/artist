@@ -1,0 +1,27 @@
+#!/usr/bin/perl
+#
+# i3blocks spotifyd prompt for current song
+# Copyright 2023 Nomka0 <github.com/Nomka0>
+
+# Licensed under the terms of the GNU GPL v3, or any later version.
+
+use strict;
+use warnings;
+use Time::HiRes qw(usleep);
+    
+# my $song= qx{/usr/bin/spt pb -s -f '%t - %a'}; 
+my $song= qx{/usr/bin/spt pb -f %a}; 
+my $length= length($song);
+
+if($length > 20){
+  my $subcancion = substr($song, 0, 20);
+
+  print "$subcancion" . "(...)";
+  usleep(1000);
+  system("clear");
+} else {
+  print "$song\n";    
+  usleep(1000);
+  system("clear");
+}
+

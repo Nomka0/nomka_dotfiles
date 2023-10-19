@@ -1,9 +1,8 @@
 #!/bin/bash
 
-
 while true
 do
-	feh --bg-scale --randomize /home/nomka/wallpapers
-	sleep 40
+    feh -r --bg-scale --randomize ~/wallpapers/
+    sleep 15
 done
 
